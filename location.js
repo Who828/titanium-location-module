@@ -46,7 +46,6 @@ function start(obj) {
     stop();
   }, 25000);
 
-  Ti.Geolocation.Android.manualMode = false;
   Titanium.Geolocation.distanceFilter = 1;
   Titanium.Geolocation.accuracy = Titanium.Geolocation.ACCURACY_BEST;
   Ti.Geolocation.preferredProvider = Ti.Geolocation.PROVIDER_GPS;
